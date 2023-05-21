@@ -1,0 +1,146 @@
+jedbook:libeio jed$ ls
+CVS		aclocal.m4	config.log	eio.3		libeio.m4
+Changes		autogen.sh	config.sub	eio.c		ltmain.sh
+LICENSE		autom4te.cache	configure	eio.h		missing
+Makefile.am	config.guess	configure.ac	eio.pod		xthread.h
+Makefile.in	config.h.in	demo.c		install-sh
+jedbook:libeio jed$ ./configure
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... i686-apple-darwin9.8.0
+checking host system type... i686-apple-darwin9.8.0
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... none
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ld used by gcc... /usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld
+checking if the linker (/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld) is GNU ld... no
+checking for /usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... none
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 196608
+checking command to parse /usr/bin/nm -p output from gcc object... rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+checking if gcc supports -fno-rtti -fno-exceptions... rm: conftest.dSYM: is a directory
+no
+checking for gcc option to produce PIC... -fno-common
+checking if gcc PIC flag -fno-common works... rm: conftest.dSYM: is a directory
+yes
+checking if gcc static flag -static works... rm: conftest.dSYM: is a directory
+no
+checking if gcc supports -c -o file.o... rm: conftest.dSYM: is a directory
+yes
+checking whether the gcc linker (/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin9.8.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+checking for ld used by g++... /usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld
+checking if the linker (/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld) is GNU ld... no
+checking whether the g++ linker (/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common
+checking if g++ PIC flag -fno-common works... rm: conftest.dSYM: is a directory
+yes
+checking if g++ static flag -static works... rm: conftest.dSYM: is a directory
+no
+checking if g++ supports -c -o file.o... rm: conftest.dSYM: is a directory
+yes
+checking whether the g++ linker (/usr/libexec/gcc/i686-apple-darwin9/4.0.1/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin9.8.0 dyld
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) none
+checking for library containing pthread_create... none required
+checking for futimes... yes
+checking for readahead... no
+checking for fdatasync... no
+checking for pread and pwrite... yes
+checking for sendfile... yes
+checking for sync_file_range... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands

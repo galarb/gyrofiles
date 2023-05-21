@@ -1,0 +1,5 @@
+Undefined symbols:
+  "_fdatasync", referenced from:
+      _eio__sync_file_range in eio_1.o
+      _etp_proc in eio_1.o
+ld: symbol(s) not found
